@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+</head>
+<style>
+    .social-media{
+        display: flex;
+        width: 80%;
+        height: 40px;
+        place-items: center;
+        justify-content: center;
+        /* padding-top: 30px; */
+    }
+    span{
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+    }
+    span img{
+        width: 50px;
+        height: 50px;
+    }
+    span img:hover{
+        filter: drop-shadow(0 0 10px #080606);
+    }
+    .contact {
+        width: 80%;
+        height: 400px;
+        display:flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-left: 100px;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        border: solid 1px cornsilk; 
+        box-shadow: 1px 1px 10px black;  
+     }
+     .contact input{
+            padding: 10px;
+            width: 250px;
+            height: 50px;
+            border: none;
+            border-radius: 5px;
+            box-shadow:inset 0 0 4px black;
+     }
+     p{
+        font-size: 40px;
+        text-align: center;
+     }
+     textarea {
+        padding-top: 50px;
+        padding-left: 40px;
+        border: none;
+        border-radius: 5px;
+        box-shadow:inset 0 0 4px black;
+        
+     }
+     span button {
+        background-color: rgb(177, 177, 241);
+        color: rgb(7, 7, 6);
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: 1000;
+     }
+     
+</style>
+<body>
+  <header>
+  <nav>
+      <div class="logo">
+      <img src="/image/rani-removebg-preview.png" alt="">
+      </div>
+       <ul>
+          <li class="active"><a href="./index.html">HOME</a></li>
+          <li><a href="./product.html">PRODUCT</a></li>
+          <li class="active"><a href="./BESTDEALS.html">BESTDEALS</a></li>
+          <li class="active"><a href="./gifts.html">GIFTS</a></li>
+          <li><a href="./contact.html">CONTACT US</a></li>
+          </ul>
+          <ul id="icon1">
+         <a href="/search.html"><img src="/image/find.png" alt=""></a>
+          <a href="./login.html "><img src="/image/register img.png" alt=""></a>
+          </ul>
+  </nav>
+</header>
+<p>Send Us Your Questions!</p>
+<div class="contact">
+<label id="CONTACT1">NAME </label> <input type="text" required placeholder=" Your Name" ><br><br>
+<label id="CONTACT1">Email </label><input type="email" required placeholder="Your Email" ><br><br>
+<label id="CONTACT1">Mobile NO </label><input type="number" required placeholder="Your Mobile No" ><br><br>
+
+<label>Message</label> <textarea rows="10" cols="60" placeholder="Your Message"></textarea>
+
+<div class="social-media">
+    <span>
+        <img src="./img/instagram.png" alt="">
+    </span>
+    <span>
+        <img src="./img/facebook.png" alt="">
+    </span>
+    <span>
+        <img src="./img/whatsapp.png" alt="">
+    </span>
+    <span>
+        <img src="./img/twitter.png" alt="">
+    </span>
+    <span><button type="button">Send</button></span>
+</div>
+</div>
+
+
+<!-- <div class="social-media">
+    <span>
+        <img src="./img/instagram.png" alt="">
+    </span>
+    <span>
+        <img src="./img/facebook.png" alt="">
+    </span>
+    <span>
+        <img src="./img/whatsapp.png" alt="">
+    </span>
+    <span>
+        <img src="./img/twitter.png" alt="">
+    </span>
+</div> -->
+</body>
+</html>
