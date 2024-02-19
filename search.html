@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="/stylesheet/stylesheet.css">
+
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
+@font-face{
+  font-family:"popins";
+  src:url(/fonts/Poppins/Poppins-Black.ttf)}
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image: url(/image/graphic.svg);
+        }
+        .search {
+            width: 50%;
+            height: 60px;
+            display: flex;
+            cursor: pointer;
+            padding: 10px 20px;
+            /* background-color: cornsilk; */
+            border-radius: 30px;
+            align-items: center;
+            border: solid 2px rgb(241, 237, 233);
+            /* box-shadow: 0 0 4px black; */
+            align-items: center;
+            margin-left: 25rem;
+            margin-top: 30px; 
+        }
+        .search img {
+            width: 8%;
+            height: 50px;
+            place-items: center;
+            overflow: hidden;
+            margin-left: 40px;
+}
+        .search input{
+            width: 80%;
+            height: 50px;
+            outline: none;
+            border: none;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 30px;
+            
+            /* background-color: cornsilk; */
+        }
+        .item {
+            height: 400px;
+            width: 300px;
+            margin-left: 40PX;
+            font-size: 18px;
+            font-weight: 600;
+            border-right: solid 1px rgb(121, 115, 113);
+            
+            /* box-shadow: 0 2px 3px rgb(117, 115, 115); */
+            /* font-family:popins ; */
+           
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+            <img src="/image/rani-removebg-preview.png" alt="">
+            </div>
+             <ul>
+                <li ><a href="./index.html">HOME</a></li>
+                <li class="active"><a href="./product.html">PRODUCT</a></li>
+                <li class="active"><a href="./BESTDEALS.html">BESTDEALS</a></li>
+                <li class="active"><a href="./gifts.html">GIFTS</a></li>
+                <li><a href="./contact.html">CONTACT US</a></li>
+                </ul>
+                <ul id="icon1">
+                <a href="/search.html"><img src="/image/find.png" alt=""></a>
+                <a href="./login.html"><img src="/image/register img.png" alt=""></a>
+                </ul>
+        </nav>
+      </header>
+    <div class="search">
+      <input type="text" placeholder="Search....">
+      <img src="/image/find.png" alt="">
+
+    </div>
+    <div class="item">
+        <a href="/product.html"><p> ALL PRODUCTS</p></a><br>
+        <a href="/dates.html"><p>DATES</p></a><br>
+        <a href="/nuts.html"><P>NUTS</P></a><br>
+        <a href="/fruits.html"><P>DRY FRUITS</P></a>
+    </div>
+</body>
+</html>
